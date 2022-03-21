@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lato:wght@300&family=Poppins:wght@300&family=Readex+Pro:wght@200&family=Roboto+Condensed:ital,wght@1,300&family=Source+Serif+Pro:wght@300&family=Spline+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.todo-form {
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px;
+}
+.todo-form h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+.todo-form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.todo-list {
+  display: flex;
+  justify-content: center;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 8px rgb(198, 198, 230);
+  align-items: center;
+  margin-bottom: 5px;
+}
+.todo i{
+  cursor: pointer;
+  color: rgb(170, 19, 19);
+}
+.todo p{
+  margin-bottom: 0;
+}
